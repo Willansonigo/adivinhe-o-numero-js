@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8"
+
+    <title>Document</title>
+</head>
+<body>
+  <p><a id="link" href="http://www.google.com">Texto</a></p>
+  <button onclick="diminuirFonte()">Diminuir Fonte</button>
+  <button onclick="aumentarFonte()">Aumentar Fonte</button>
+  <button onclick="alterarHref()">Alterar HREF</button>
+  
+  <script>
+   function aumentarFonte(){
+       document.documentElement.style.fontSize = "30px";
+}
+function diminuirFonte(){
+    document.documentElement.style.fontSize = "10px";
+    }
+ function alterarHref(){
+    var chute = (prompt("Digite o seu link"));
+     var elLink = document.getElementById("link");
+     elLink.href = chute;
+
+ }   
+  </script>
+    
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Olá mundo em javascript!</title>
+        
+    </head>
+    <body> 
+        <scrpit> 
+                var numeroPensado = Math.round(Math.random() * 10);
+                var tentativas = 1;
+                
+                while(tentativas <= 3) {var chute = parseInt(prompt("Digite seu chute!"));
+                    
+                    var acerto = false;
+                    if(chute == numeroPensado) {
+                        console.log("Você ACERTOU, o número pensado era " + numeroPensado);
+                        acerto = true;
+                        break;
+                    } else {
+                        acerto = false;
+                    }if (acerto == false){
+                        console.log("Voce errou!");
+                      }
+                  tentativas++;
+                  }
+                  if(chute != numeroPensado) {
+                      alert("Você ERROU, o número pensado era " + numeroPensado);
+                      }
+                  
+                    alert(Fim);
+                                               
+        </scrpit>
+        
+    </body>
+</html>
