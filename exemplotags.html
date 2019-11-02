@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Exemplo Tags</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <h1 id="titulo1">Titulo 1</h1>
+    <h2>Titulo 2</h2>
+    <h3>Titulo 3</h3>
+    <h4>Titulo 4</h4>
+    <h5>Titulo 5</h5>
+    <h6>Titulo 6</h6>
+    <p>Para quebrar a linha usa-se paragrafo</p>
+
+    <h1>Listas não ordenadas</h1>
+    <ul>
+        <li>Item da Lista(List Item) 1</li>
+        <li>Item da Lista(List Item) 2</li>
+        <li>Item da Lista(List Item) 3</li>
+    </ul>
+
+    <h1>Listas ordenadas</h1>
+    <ol>
+        <li>Item da Lista(List Item) 1</li>
+        <li>Item da Lista(List Item) 2</li>
+        <li>Item da Lista(List Item) 3</li>
+
+    </ol>
+
+    <h1>Outras tags</h1>
+    <p><a href="http://www.google.com.br">Link para o Google</a></p>
+    <p><a href="#titulo1">Titulo 1</a></p>
+
+    <p><img src="file:///C:/Users/Willan Gois/Pictures/Imagens LP2/Spring.png" /></p>
+
+    
+
+    <h1>Tabelas</h1>
+    <table border="1">
+        <caption>Pessoas</caption>
+        <thead>
+            <tr>
+                <th>Nome</td>
+                <th>Bairro</td>
+        </thead>
+        <tbody>
+            </tr>
+            <tr>
+
+                <td>José</td>
+                <td>Bela Vista</td>
+
+            </tr>
+
+            <tr>
+                <td>João</td>
+                <td>Jardim Atlantico</td>
+
+            </tr>
+        </tbody>
+<tfooter>
+    <tr>
+        <td colspan="2">Rodapé</td>
+    </tr>
+    <tr>
+    </table>
+    <table border="1">
+        <td rowspan="2">Célula 1</td>
+        <td>Célula 2</td>
+    </tr>
+<tr>
+    <br/>
+    <!----Célula-->
+<td>Célula 3</td>
+
+</tr>
+
+</tfooter>
+        
+    </table>
+
+    </body></br></br>
+
+    <form>
+        <input type="text" size="10" maxlength="15" disabled value="Valor"/>
+        <br/>
+        <input type="text" size="10" maxlength="15" placeholder="Digite o CPF"/>
+        <br/>
+        <input type="password" size="10" maxlength="15"  />
+        <br/>
+        <input type="checkbox" size="10" maxlength="15"/>
+        <br/>
+        <input type="checkbox" id="opcao3"/>Opção 3
+        <br/>
+        <input type="checkbox" id="opcao1"/><label for="opcao1">Opção 1</label>
+        <br/>
+        <input type="radio" id="radio1"/><label for="radio1">Radio 1</label>    
+        <br/>
+        <input type="radio" id="radio2"/><label for="radio1">Radio 2</label>
+        <br/>
+        <input type="radio" id="radio11" name="grupo1"/><label for="radio11">Radio Opção 1.1</label>
+        <br/><!----Se for o mesmo grupo escolhe qual opção não pode os dois, se for outro grupo funciona os dois-->
+        <input type="radio" id="radio12" name="grupo1"/><label for="radio12">Radio Opção 1.2</label>
+        <br/>
+        <input type="radio" id="radio21" name="grupo2"/><label for="radio21">Radio Opção 2.1</label>
+        <br/>
+        <input type="radio" id="radio22" name="grupo2"/><label for="radio22">Radio Opção 2.2</label>
+        <br/>
+        <label for="radio12"><img src="/html2/imagens/pc2.jpg" width="70" height="60"/>Radio Opção 1.2</label><input type="radio"/>
+        <br/><br/><br/>
+        <fieldset><!--fieldset criar um campo com borda ao redor que onde eu colocar ele-->
+           
+        <legend>Produtos</legend>
+        <select size="5" multiple><!----Size aparece o campo com todas as opções e o multiple escolhe varias opções-->
+         <option>Cerveja</option>
+         <option>Água Mineral</option>
+         <option>Suco de Laranja</option>
+
+        </select>
+        <br/><br/><br/>
+        <textarea rows="5" cols="20"></textarea> </textarea>
+        <br/>
+        <input type="reset" />
+        <br/>
+        <input type="submit" action="exemploTags.html" method="Post" Value="Enviar os dados" />
+        <br/><!---o action é para onde eu vou mandar os dados, qual o caminho.-->
+        </fieldset>
+        <button>Botão</button>
+    </form>
+
+</body>
+
+</html>

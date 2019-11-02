@@ -1,0 +1,27 @@
+Aula > 01/11/2019
+<tr>//Table row
+<th>//Table head
+<tfooter>//Rodapé da tabela.
+<thead>//Cabeçalho da tabela.
+<tbody>//corpo da tabela
+<td>//Pesquisar...uma celula.
+<table border="1">
+row = Linha
+As pessoas tem usado mais <div>.Mas tem que trabalhar bem no CSS para melhorar.
+
+
+<form>
+<input type= texto size= tamanho que vai aparecer dos caracteres,ou seja que serão visiveis no campo,terão mais do que o size mas aparecerão quanto eu colocar no size Maxlength=Mostra o tamanho dos caracteres,esse determina o quanto vai poder ter de caractere no campo.>
+
+*Atributos do form: / input: ex:<form>
+        <input type="text" size="10" maxlength="15" disabled value="Valor"/>
+placeholder="CPF" > coloca no input do form e aparece no campo escrito "CPF" para escrever.
+-disable desativa um campo.
+-Value = "alguma coisa" ja preenchi um dado no campo.
+-required > Não deixa ficar o campo em branco,precisa ser preenchido.
+-id e for para selecionar e ja clica no cehckbox
+-type="radio" id="radio1" > consegue selcionar varios campos.
+-name="radiogroup" > separa os que são marcados por grupos e são dsitintos.
+
+<select> abre um campo para ser selecionado.
+<option> > coloca nome na opção.
